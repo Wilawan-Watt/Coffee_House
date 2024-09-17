@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE HOUSE</title>
+
+    <!---------- Bakery css ---------->
+    <link rel="stylesheet" href="asset/css/style.css">
+
+    <!---------- Bootstrap icon ---------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!--=============== HEADER start ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <!-------------------- Add your link -------------------->
+            <a href="#" class="nav__logo">Coffee House</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#news" class="nav__link">news</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">about us</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#favorite" class="nav__link">favorites</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#visit" class="nav__link">location</a>
+                    </li>
+                </ul>
+
+                <!----- Close  button ----->
+                <div class="nav__close" id="nav-close">
+                    <i class="bi bi-x"></i>
+                </div>
+
+                <img src="asset/image/Illustration-Roasted-Coffee Beans.png" alt="Illustration of roasted coffee beans"
+                    class="nav__img-1">
+                <img src="asset/image/Vintage-Coffee-Grinder-Handcrafted-Fresh-Brew.png"
+                    alt="Vintage-Coffee-Grinder-Handcrafted-Fresh-Brew" class="nav__img-2">
+            </div>
+
+            <!----- Toggle button ----->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+        </nav>
+    </header>
+    <!--=============== HEADER end ===============-->
+
+    <!--=============== MAIN start ===============-->
+    <main class="main">
+        <!--------------- Home --------------->
+        <section class="home section" id="home">
+            <img src="asset/image/black-wooden-texture-flooring-background.jpg" alt="background" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Select The Best <br> Quality Coffee
+                    </h1>
+                    <!-------------------- Add your link -------------------->
+                    <a href="#" class="button">Select Coffee</a>
+                </div>
+
+                <div class="home__image">
+                    <img src="asset/image/Cup-Coffee-Latte-Art-Heart-Top view.png"
+                        alt="A latte art with a heart, closeup photo on top view." class="home__img">
+                </div>
+
+                <footer class="home__footer">
+                    <div class="home__location">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>Coffee House <br> The Best Quality Coffee</span>
+                    </div>
+
+                    <div class="home__social">
+                        <!-------------------- Add your link -------------------->
+                        <a href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="http://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="http://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <!--------------- News --------------->
+        <section class="news section" id="news">
+            <h2 class="section__title">New Coffee</h2>
+
+            <div class="new__container container grid">
+                <div class="new__content grid">
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Drip Coffee</h2>
+                            <p class="new__description">Drip coffee is brewed by pouring hot water over ground coffee
+                                beans, allowing it to slowly filter through a paper or metal filter.</p>
+                        </div>
+
+                        <img src="asset/image/Drip-Coffee-Pouring-Hot-Water-Over-Coffee-Grounds.jpg"
+                            alt="Making drip coffee with a pour-over method, hot water flowing through coffee grounds."
+                            b class="new__img">
+                    </article>
+
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Syphon Coffee</h2>
+                            <p class="new__description">Syphon coffee is brewed using a vacuum-based system where water
+                                is heated, forced upward, then filtered back down through coffee grounds.</p>
+                        </div>
+
+                        <img src="asset/image/Classic Syphon-Coffee-Maker-Vacuum-Brewing-Fresh-Coffee..jpg"
+                            alt="Classic Syphon coffee maker brewing coffee with a vacuum-based system for brewing." b
+                            class="new__img">
+                    </article>
+
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">French Press Coffee</h2>
+                            <p class="new__description">French Press Coffee is a method where coarsely ground coffee is
+                                steeped in hot water, then separated by pressing a plunger.</p>
+                        </div>
+
+                        <img src="asset/image/French Press-Coffee Maker-Pouring-Freshly-Brewed Coffee-Cup.jpg"
+                            alt="Close-up of a French Press coffee maker pouring freshly brewed coffee into a clear glass cup, with rich, aromatic coffee flowing from the spout."
+                            b class="new__img">
+                    </article>
+                </div>
+
+                <!-------------------- Add your link -------------------->
+                <a href="#" class="new__button button">See More Coffees</a>
+            </div>
+        </section>
+
+        <!--------------- About --------------->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">About Us</h2>
+
+                    <p class="about__description">
+                        Welcome to Coffee House, where coffee lovers can explore a world of flavors. We take pride in
+                        crafting every cup with care, showcasing every step of the brewing process. From classic brews
+                        to innovative blends, our café offers a unique experience for you to savor freshly brewed coffee
+                        and witness the art of coffee-making firsthand. Join us to enjoy exceptional coffee in a
+                        welcoming atmosphere.
+                    </p>
+
+                    <!-------------------- Add your link -------------------->
+                    <a href="#" class="button">Know More</a>
+
+                    <img src="asset/image/Illustration-Coffee-Cherry-Cluster-Branch.png"
+                        alt="Illustration Coffee Cherry Cluster on Branch." class="about__coffee">
+                </div>
+
+                <img src="asset/image/Coffe-Make-You-Happy-Feel-Good.jpg"
+                    alt="Close-up of coffe make you happy feel good." class="about__img">
+            </div>
+        </section>
+
+        <!--------------- Favorite --------------->
+        <section class="favorite section" id="favorite">
+            <h2 class="section__title">Customer Faverites</h2>
+
+            <div class="favorite__container container grid">
+                <article class="favorite__card">
+                    <img src="asset/image/Classic-Americano-Coffee-Perfect Morning-Coffee Lovers.jpg"
+                        alt="Two cups of classic Americano coffee served with Oreo cookies on a white tray.">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Americano</h2>
+                        <span class="favorite__subtitle">Coffee</span>
+                        <h3 class="favorite__price">60-80 Baht</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="asset/image/Rich-Cappuccino-Coffee-Biscuit-Cozy-Cafe-Ambiance-Coffee-Lovers.jpg"
+                        alt="A cup of rich cappuccino coffee topped with foamy milk served with a biscuit in a cozy cafe setting.">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Cappuccino</h2>
+                        <span class="favorite__subtitle">Coffee</span>
+                        <h3 class="favorite__price">75-95 Baht</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="asset/image/Bold-Espresso-Shot-Outdoor-Cafe-Table-Perfect-Coffee-Moment.jpg"
+                        alt="A bold espresso shot in a small glass, resting on an outdoor cafe table, offers a perfect coffee moment for espresso lovers.">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Espresso</h2>
+                        <span class="favorite__subtitle">Coffee</span>
+                        <h3 class="favorite__price">50-70 Baht</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="asset/image/Latte-Art-Milk-Pouring-White Coffee-Cup-Perfect-Latte.jpg"
+                        alt="A barista's hand pouring steamed milk into a white coffee cup to create beautiful latte art, showcasing a perfect blend of espresso and milk.">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Latte</h2>
+                        <span class="favorite__subtitle">Coffee</span>
+                        <h3 class="favorite__price">60-80 Baht</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="asset/image/Classic-Macchiato-White Cup-Espresso-Touch-Milk-Foam.jpg"
+                        alt="A classic macchiato served in a small white cup on a matching saucer, featuring rich espresso with a touch of milk foam on top.">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Macchiato</h2>
+                        <span class="favorite__subtitle">Coffee</span>
+                        <h3 class="favorite__price">50-70 Baht</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="asset/image/Delicious-Mocha-Coffee-Milk Poured-Glass-Rich-Espresso-Chocolate.jpg"
+                        alt="A glass of mocha coffee is prepared as milk is poured into a rich espresso and chocolate mix, creating a creamy blend.">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Mocha</h2>
+                        <span class="favorite__subtitle">Coffee</span>
+                        <h3 class="favorite__price">60-80 Baht</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!--------------- Visit --------------->
+        <section class="visit section" id="visit">
+            <div class="visit__container">
+                <img src="asset/image/Cozy-Coffee-Shop-Ambience-Relaxing-Cafe Environment-Coffee-Lovers.jpg"
+                    alt="A warm and inviting coffee shop ambiance with cozy seating and soft lighting, perfect for coffee lovers seeking a relaxing environment."
+                    class="visit__bg">
+                <div class="visit__shadow"></div>
+
+                <div class="visit__cotent container grid">
+                    <div class="visit__data">
+                        <h2 class="section__title">Visit Us</h2>
+
+                        <p class="visit__description">
+                            Discover the best coffee, we look forward to your visit.
+                        </p>
+
+                        <!-------------------- Add your link -------------------->
+                        <a href="#" class="button">See Location</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--=============== MAIN end ===============-->
+
+    <!--=============== FOOTER start ===============-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <!-------------------- Add your link -------------------->
+                <a href="#" class="footer__logo">Coffee House</a>
+                <p class="footer__description">
+                    We make the best coffee <br> in the Bangkok.
+                </p>
+            </div>
+
+            <div class="footer__content grid">
+                <div>
+                    <h3 class="footer__title">Address</h3>
+
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">Coffee House 123 <br> Ratchathewi, Bangkok</address>
+                        </li>
+
+                        <li>
+                            <address class="footer__info">10AM - 10PM</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Contact Me</h3>
+
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">coffeehouse@mail.com</address>
+                        </li>
+
+                        <li>
+                            <address class="footer__info">+66 012 345 678</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Follow Us</h3>
+
+                    <div class="footer__social">
+                        <a href="http://www.facebook.com" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="http://www.instagram.com" target="_blank">
+                            <i class="bi bi-instagram"></i>   
+                        </a>
+
+                        <a href="http://www.youtube.com" target="_blank">
+                            <i class="bi bi-youtube"></i> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <img src="asset/image/Illustration-Roasted-Coffee-Bag-Coffee Beans.png" alt="A small burlap sack filled with freshly dried coffee beans, showcasing the quality and texture of premium coffee beans ready for roasting." class="footer__img-1">
+            <img src="asset/image/Illustration-Moga-Pot-Coffee.png" alt="Classic Moka Pot, Traditional Stovetop Coffee Maker for Rich Espresso." class="footer__img-2">
+        </div>
+
+        <span class="footer__copy">
+            &#169; All Rights Reserved By GaLaXaKaLa <br> Template By Bedimcode
+        </span>
+    </footer>
+    <!--=============== FOOTER end ===============-->
+
+    <!--=============== Scroll Up start ===============-->
+    <!-------------------- Add your link -------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+    <!--=============== Scroll Up end ===============-->
+
+    <!--=============== Main JS ===============-->
+    <script src="asset/js/main.js"></script>
+
+</body>
+
+</html>

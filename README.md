@@ -8,4 +8,5 @@ https://www.youtube.com/watch?v=TTOkgUNmNk0&list=PLl6GjkXa1Fi-26r8T8TXFtLWQogLyj
 
 ขอบคุณภาพฟรีต่าง ๆ จาก Unsplash และ Freepik ในการทำโปรเจคในครั้งนี้
 
-(https://github.com/user-attachments/assets/7e9e1497-58b3-45d3-ba7c-376f7c7d8223)
+
+![Coffee_House cover](https://github.com/user-attachments/assets/2915bd30-65a8-4ca0-bdc4-42d2be2f368a)
